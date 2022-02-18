@@ -18,3 +18,15 @@ the processor type....: x86_64
 the hardware platform.: x86_64
 the operating system..: GNU/Linux
 ```
+
+On the other machine I worked with, the script resulted next:
+```
+kernel name...........: Linux
+network node hostname.: ip-172-31-62-189
+network kernel release: 4.4.0-1099-aws
+kernel version........: #110-Ubuntu SMP Fri Nov 15 00:08:08 UTC 2019
+machine hardware name.: x86_64
+the processor type....: x86_64
+the hardware platform.: x86_64
+the operating system..: GNU/Linux
+```
