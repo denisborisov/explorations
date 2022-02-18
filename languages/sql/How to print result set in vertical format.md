@@ -4,7 +4,7 @@
 
 \[Windows\] 5250 Emulator provided by IBM i Access Client Solutions.
 
-no way to do it
+* There is no way to do it.
 
 
 
