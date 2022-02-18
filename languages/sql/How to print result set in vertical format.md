@@ -2,11 +2,15 @@
 
 ## DB2 for i
 
+\[Windows\] 5250 Emulator provided by IBM i Access Client Solutions.
+
 no way to do it
 
 
 
 ## MySQL
+
+\[Windows\] Command prompt or PowerShell console
 
 * `select * from {{schema}}.{{table}} \G`
     * e.g. `select * from mysql.user \G`
@@ -14,6 +18,8 @@ no way to do it
 
 
 ## PostgreSQL
+
+\[Windows\] Command prompt or PowerShell console
 
 * `select * from {{schema}}.{{table}} \x\g\x`
     * e.g. `select * from pg_catalog.pg_user \x\g\x`
