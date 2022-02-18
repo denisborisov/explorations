@@ -13,6 +13,7 @@ e.g. `runsqlstm srcfile(SQLF) srcmbr(HELLO)`
 ## MySQL
 
 \[Windows\] Command prompt or PowerShell console
+
 `\. C:\Users\Denis Borisov\.sql\hello.sql` -- do not use quotes around the path
 
 
@@ -20,4 +21,5 @@ e.g. `runsqlstm srcfile(SQLF) srcmbr(HELLO)`
 ## PostgreSQL
 
 \[Windows\] Command prompt or PowerShell console
+
 `\i 'C:/Users/Denis Borisov/.sql/hello.sql'` -- be careful with slashes and backslashes
