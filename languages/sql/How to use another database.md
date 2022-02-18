@@ -14,9 +14,15 @@ e.g. `addlible lib(QGPL) position(*FIRST)`
 
 \[Windows\] Command prompt or PowerShell console
 
-`\u {{database_name}}`
+There are two possible options:
+
+1. `\u {{database_name}}`
 
 e.g. `\u mysql`
+
+2. `use {{database_name}}`
+
+e.g. `use mysql`
 
 
 
