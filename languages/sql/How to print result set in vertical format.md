@@ -8,10 +8,10 @@ no way to do it
 
 ## MySQL
 
-select * from mysql.user \G
+`select * from mysql.user \G`
 
 
 
 ## PostgreSQL
 
-select * from pg_catalog.pg_user \x\g\x
+`select * from pg_catalog.pg_user \x\g\x`

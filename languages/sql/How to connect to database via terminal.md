@@ -11,7 +11,7 @@
 ## MySQL
 
 \[Windows\]
-Command prompt or in PowerShell console
+Command prompt or PowerShell console
 * `mysql -u root -p`
 
 
@@ -19,5 +19,5 @@ Command prompt or in PowerShell console
 ## PostgreSQL
 
 \[Windows\]
-Command prompt or in PowerShell console
+Command prompt or PowerShell console
 * `psql -U postgres`
