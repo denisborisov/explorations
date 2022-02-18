@@ -14,6 +14,6 @@ printf "\nmachine hardware name.: %s" $(uname --machine)              # same as 
 
 printf "\nthe processor type....: %s" $(uname --processor)            # same as uname -p
 
-printf "\nthe hardware platform.: %s" $(uname --hardware-platform)   # same as uname -i
+printf "\nthe hardware platform.: %s" $(uname --hardware-platform)    # same as uname -i
 
 printf "\nthe operating system..: %s\n\n" $(uname --operating-system) # same as uname -o
