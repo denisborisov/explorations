@@ -16,11 +16,11 @@ e.g. `addlible lib(QGPL) position(*FIRST)`
 
 There are two possible options:
 
-1. `\u {{database_name}}`
-    - e.g. `\u mysql`
+* `\u {{database_name}}`
+    * e.g. `\u mysql`
 
-2. `use {{database_name}}`
-    - e.g. `use mysql`
+* `use {{database_name}}`
+    * e.g. `use mysql`
 
 
 
