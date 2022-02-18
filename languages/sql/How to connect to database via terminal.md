@@ -4,7 +4,7 @@
 
 \[Windows\] 5250 Emulator provided by IBM i Access Client Solutions.
 
-`strsql`
+* `strsql`
 
 
 
@@ -12,9 +12,8 @@
 
 \[Windows\] Command prompt or PowerShell console
 
-`mysql -u {{user_name}} -p`
-
-e.g. `mysql -u root -p`
+* `mysql -u {{user_name}} -p`
+    * e.g. `mysql -u root -p`
 
 
 
@@ -22,6 +21,5 @@ e.g. `mysql -u root -p`
 
 \[Windows\] Command prompt or PowerShell console
 
-`psql -U {{user_name}}`
-
-e.g. `psql -U postgres`
+* `psql -U {{user_name}}`
+    * e.g. `psql -U postgres`

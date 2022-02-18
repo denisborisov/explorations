@@ -14,7 +14,6 @@
 \[Windows\] Command prompt or PowerShell console
 
 There are two possible options:
-
 * `\u {{database_name}}`
     * e.g. `\u mysql`
 * `use {{database_name}}`

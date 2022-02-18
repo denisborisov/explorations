@@ -4,9 +4,8 @@
 
 \[Windows\] 5250 Emulator provided by IBM i Access Client Solutions.
 
-`runsqlstm srcfile({{file_name}}) srcmbr({{member_name}})`
-
-e.g. `runsqlstm srcfile(SQLF) srcmbr(HELLO)`
+* `runsqlstm srcfile({{file_name}}) srcmbr({{member_name}})`
+    * e.g. `runsqlstm srcfile(SQLF) srcmbr(HELLO)`
 
 
 
@@ -14,7 +13,11 @@ e.g. `runsqlstm srcfile(SQLF) srcmbr(HELLO)`
 
 \[Windows\] Command prompt or PowerShell console
 
-`\. C:\Users\Denis Borisov\.sql\hello.sql` -- do not use quotes around the path
+There are two possible options:
+* `\. {{path}}\{{file_name}}.sql` -- do not use quotes around the path
+    * `\. C:\Users\Denis Borisov\.sql\hello.sql`
+* `source {{path}}\{{file_name}}.sql` -- do not use quotes around the path
+    * `source C:\Users\Denis Borisov\.sql\hello.sql`
 
 
 
@@ -22,4 +25,5 @@ e.g. `runsqlstm srcfile(SQLF) srcmbr(HELLO)`
 
 \[Windows\] Command prompt or PowerShell console
 
-`\i 'C:/Users/Denis Borisov/.sql/hello.sql'` -- be careful with slashes and backslashes
+* `\i '{{path}}/{{file_name}}.sql'` -- be careful with slashes and backslashes
+    * `\i 'C:/Users/Denis Borisov/.sql/hello.sql'`
