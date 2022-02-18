@@ -12,7 +12,7 @@
 
 \[Windows\] Command prompt or PowerShell console
 
-* `mysql -u {{user_name}} -p`
+* `mysql -u {{user name}} -p`
     * e.g. `mysql -u root -p`
 
 
@@ -21,5 +21,5 @@
 
 \[Windows\] Command prompt or PowerShell console
 
-* `psql -U {{user_name}}`
+* `psql -U {{user name}}`
     * e.g. `psql -U postgres`

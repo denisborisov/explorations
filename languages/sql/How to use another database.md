@@ -4,7 +4,7 @@
 
 \[Windows\] 5250 Emulator provided by IBM i Access Client Solutions.
 
-* `addlible lib({{library_name}}) position(*FIRST)`
+* `addlible lib({{library}}) position(*FIRST)`
     * e.g. `addlible lib(QGPL) position(*FIRST)`
 
 
@@ -14,9 +14,9 @@
 \[Windows\] Command prompt or PowerShell console
 
 There are two possible options:
-* `\u {{database_name}}`
+* `\u {{database}}`
     * e.g. `\u mysql`
-* `use {{database_name}}`
+* `use {{database}}`
     * e.g. `use mysql`
 
 
@@ -25,5 +25,5 @@ There are two possible options:
 
 \[Windows\] Command prompt or PowerShell console
 
-* `\c {{database_name}}`
+* `\c {{database}}`
     * e.g. `\c postgres`
