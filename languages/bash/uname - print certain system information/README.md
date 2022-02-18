@@ -19,7 +19,7 @@ the hardware platform.: x86_64
 the operating system..: GNU/Linux
 ```
 
-On the other machine I worked with, the script resulted next:
+On the other machine located in AWS, the script resulted next:
 ```
 kernel name...........: Linux
 network node hostname.: ip-172-31-62-189
