@@ -2,7 +2,7 @@
 
 ## DB2 for i
 
-\[Windows\] 5250 Emulator provided by IBM i Access Client Solutions.
+\[Windows\] 5250 Emulator provided by IBM i Access Client Solutions
 
 * `addlible lib({{library}}) position(*FIRST)`
     * e.g. `addlible lib(QGPL) position(*FIRST)`

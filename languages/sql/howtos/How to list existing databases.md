@@ -2,7 +2,7 @@
 
 ## DB2 for i
 
-\[Windows\] 5250 Emulator provided by IBM i Access Client Solutions.
+\[Windows\] 5250 Emulator provided by IBM i Access Client Solutions
 
 * `wrkobj obj(*ALL) objtype(*LIB)`
 

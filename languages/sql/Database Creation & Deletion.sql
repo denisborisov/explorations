@@ -1,6 +1,6 @@
 /*
 DB2 for i
-[Windows] 5250 Emulator provided by IBM i Access Client Solutions.
+[Windows] 5250 Emulator provided by IBM i Access Client Solutions
 
 * crtlib lib({{library}})
     * e.g. crtlib lib(DBLIB)
@@ -11,11 +11,14 @@ DB2 for i
 
 /* MySQL */
 
-create database a_database;
-drop database a_database;
+create database if not exists a_database;
+drop database if exists a_database;
 
 
-/* PostgreSQL */
+/*
+PostgreSQL
+[Windows] Command prompt or PowerShell console
+*/
 
-create database a_database;
-drop database a_database;
+select 'create database a_database' where not exists (select from pg_database where datname = 'a_database') \gexec
+select 'drop database a_database' where exists (select from pg_database where datname = 'a_database') \gexec
