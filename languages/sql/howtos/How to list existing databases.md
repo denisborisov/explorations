@@ -2,9 +2,9 @@
 
 ## DB2 for i
 
-\[Windows\] 5250 Emulator provided by IBM i Access Client Solutions
+SQL operator
 
-* `wrkobj obj(*ALL) objtype(*LIB)`
+* `select * from syscatalogs`
 
 
 
