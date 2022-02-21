@@ -4,6 +4,7 @@
 
 \[Windows\] 5250 Emulator provided by IBM i Access Client Solutions.
 
+It is a two-step procedure to dump a library:
 1. `crtsavf file({{save_file}})`
     * e.g. `crtsavf file(DBSAVF)`
 2. `savlib lib({{library}}) dev(*SAVF) savf({{library}}/{{save_file}})`
