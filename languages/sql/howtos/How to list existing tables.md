@@ -4,23 +4,32 @@
 
 SQL operator
 
-* `select * from systables`
-
+There is a couple of options:
+1. `select * from systables where table_schema = '{{library}}'`
+    * e.g. `select * from systables where table_schema = 'DBLIB'`
+2. `select * from information_schema.tables where table_schema = '{{library}}'`
+    * e.g. `select * from information_schema.tables where table_schema = 'DBLIB'`
 
 
 ## MySQL
 
 SQL operator
 
-* `show tables from {{database}};`
+There is a couple of options:
+1. `show tables from {{database}};`
     * e.g. `show tables from mysql;`
+2. `select * from information_schema.tables where table_schema = '{{database}}';`
+    * e.g. `select * from information_schema.tables where table_schema = 'mysql';`
 
 
 ## PostgreSQL
 
-\[Windows\] Command prompt or PowerShell console
-
-* `\dt ` -- list tables of the public schema
-* `\dt {{schema name}}.*` -- list tables of certain schema
-    * e.g. `\dt public.*`
-* `\dt *.*` -- list tables of all schemas
+There is a couple of options:
+1. \[Windows\] Command prompt or PowerShell console
+    * `\dt ` -- list tables of the public schema
+    * `\dt {{schema name}}.*` -- list tables of certain schema
+        * e.g. `\dt public.*`
+    * `\dt *.*` -- list tables of all schemas
+2. SQL operator
+    * `select * from information_schema.tables where table_schema = '{{database}}';`
+        * e.g. `select * from information_schema.tables where table_schema = 'pg_catalog';`
