@@ -19,6 +19,11 @@ There are two possible options:
 * `use {{database}}`
     * e.g. `use mysql`
 
+SQL operator
+
+* `use {{database}}`
+    * e.g. `use mysql`
+
 
 
 ## PostgreSQL

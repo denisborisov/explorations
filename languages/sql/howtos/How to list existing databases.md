@@ -10,7 +10,7 @@
 
 ## MySQL
 
-SQL operator.
+SQL operator
 
 * `show databases;`
 
