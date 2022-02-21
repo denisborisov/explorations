@@ -8,6 +8,18 @@ drop table if exists users
 
 
 
+/* MSSQL */
+
+if object_id('users', 'U') is null
+	begin
+		create table users
+		(
+			id int
+		);
+	end;
+
+
+
 /* MySQL */
 
 create table if not exists users

@@ -9,6 +9,15 @@
 
 
 
+## MSSQL
+
+SQL operator
+
+* `use {{database}}`
+    * e.g. `use master`
+
+
+
 ## MySQL
 
 \[Windows\] Command prompt or PowerShell console

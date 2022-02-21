@@ -11,6 +11,15 @@ There is a couple of options:
     * e.g. `select * from information_schema.tables where table_schema = 'DBLIB'`
 
 
+
+## MSSQL
+
+SQL operator
+
+* `sp_tables`
+
+
+
 ## MySQL
 
 SQL operator
@@ -20,6 +29,7 @@ There is a couple of options:
     * e.g. `show tables from mysql;`
 2. `select * from information_schema.tables where table_schema = '{{database}}';`
     * e.g. `select * from information_schema.tables where table_schema = 'mysql';`
+
 
 
 ## PostgreSQL

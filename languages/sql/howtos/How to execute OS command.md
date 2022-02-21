@@ -8,6 +8,22 @@
 
 
 
+## MSSQL
+
+\[Windows\] Command prompt or PowerShell console
+
+You need to run a couple commands:
+* 
+    1. `exec xp_cmdshell '{{command}}'`
+    2. `go`
+* e.g.
+    1. `exec xp_cmdshell 'dir'`
+    2. `go`
+
+P.S. There is an [instruction](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/xp-cmdshell-server-configuration-option?view=sql-server-ver15) about how to use `xp_cmdshell` if it is turned off.
+
+
+
 ## MySQL
 
 \[Windows\] Command prompt or PowerShell console

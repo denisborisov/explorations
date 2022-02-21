@@ -8,6 +8,14 @@ SQL operator
 
 
 
+## MSSQL
+
+SQL operator
+
+* `sp_databases`
+
+
+
 ## MySQL
 
 SQL operator

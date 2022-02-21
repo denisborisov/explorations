@@ -8,6 +8,14 @@
 
 
 
+## MSSQL
+
+\[Windows\] Command prompt or PowerShell console
+
+* There is no way to do it.
+
+
+
 ## MySQL
 
 \[Windows\] Command prompt or PowerShell console

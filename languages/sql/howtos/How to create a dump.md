@@ -12,6 +12,15 @@ It is a two-step procedure to dump a library:
 
 
 
+# MSSQL
+
+\[Windows\] Command prompt or PowerShell console
+
+* `sqlcmd -S {{server}}\{{instance}} -Q "backup database [{{database}}] to disk = '{{path}}\{{file name}}.bak' with noformat`
+    * e.g. `sqlcmd -S (localdb)\mssqllocaldb -Q "backup database [master] to disk = 'C:\Users\Denis Borisov\.sql\master.bak' with noformat`
+
+
+
 ## MySQL
 
 \[Windows\] Command prompt or PowerShell console

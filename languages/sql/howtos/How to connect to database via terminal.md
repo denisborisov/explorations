@@ -8,6 +8,15 @@
 
 
 
+## MSSQL
+
+\[Windows\] Command prompt or PowerShell console
+
+* `sqlcmd -S {{server}}\{{instance}}`
+    * e.g. `sqlcmd -S (localdb)\mssqllocaldb`
+
+
+
 ## MySQL
 
 \[Windows\] Command prompt or PowerShell console

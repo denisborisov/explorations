@@ -8,11 +8,20 @@ SQL operator
 
 
 
+## MSSQL
+
+SQL operator
+
+* `sp_configure`
+
+
+
 ## MySQL
 
 SQL operator
 
 * `show variables;`
+
 
 
 ## PostgreSQL

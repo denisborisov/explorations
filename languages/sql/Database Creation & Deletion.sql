@@ -9,10 +9,23 @@ DB2 for i
 */
 
 
+
+/* MSSQL */
+
+if not exists
+    (
+        select name from master.dbo.sysdatabases 
+        where name = 'a_database'
+    )
+create database a_database;
+drop database if exists a_database;
+
+
 /* MySQL */
 
 create database if not exists a_database;
 drop database if exists a_database;
+
 
 
 /*

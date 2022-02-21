@@ -9,6 +9,15 @@
 
 
 
+## MSSQL
+
+\[Windows\] Command prompt or PowerShell console
+
+* `sqlcmd -S {{server}}\{{instance} -i "{{path}}\{{file name}}.sql"`
+    * e.g. `sqlcmd -S (localdb)\mssqllocaldb -i "C:\Users\Denis Borisov\.sql\hello.sql"`
+
+
+
 ## MySQL
 
 \[Windows\] Command prompt or PowerShell console

@@ -9,12 +9,22 @@ SQL operator
 
 
 
+## MSSQL
+
+SQL operator
+
+* `sp_columns {{table}}`
+    * e.g. `sp_columns users`
+
+
+
 ## MySQL
 
 SQL operator
 
 * `describe table {{table}};`
     * e.g. ``describe table mysql.user;`
+
 
 
 ## PostgreSQL

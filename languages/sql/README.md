@@ -1,6 +1,6 @@
 # SQL
 
-## Examples are provided for DB2 for i, MySQL and PostgreSQL databases.
+## Examples are provided for DB2 for i, MSSQL, MySQL and PostgreSQL databases.
 
 ## Courses passed
 
