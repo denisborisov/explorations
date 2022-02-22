@@ -1,35 +1,36 @@
 /* DB2 for i */
 
+drop table if exists users
 create or replace table users
 (
     id integer
 )
-drop table if exists users
 
 
 
 /* MySQL */
 
+drop table if exists users;
 create table if not exists users
 (
     id int
 );
-drop table if exists users;
 
 
 
 /* PostgreSQL */
 
+drop table if exists users;
 create table if not exists users
 (
     id integer
 );
-drop table if exists users;
 
 
 
 /* SQL Server */
 
+drop table if exists users;
 if object_id('users', 'U') is null
 	begin
 		create table users
