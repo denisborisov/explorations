@@ -24,12 +24,14 @@ create database if not exists a_database;
 /*
 PostgreSQL
 [Windows] Command prompt or PowerShell console
-    * template
-        * select 'drop database {{database}}' where exists (select from pg_database where datname = '{{database}}') \gexec
-        * select 'create database {{database}}' where not exists (select from pg_database where datname = '{{database}}') \gexec
-    * example
-        * select 'drop database a_database' where exists (select from pg_database where datname = 'a_database') \gexec
-        * select 'create database a_database' where not exists (select from pg_database where datname = 'a_database') \gexec
+    1. connect to DBMS
+    2. execute command
+        * template
+            * select 'drop database {{database}}' where exists (select from pg_database where datname = '{{database}}') \gexec
+            * select 'create database {{database}}' where not exists (select from pg_database where datname = '{{database}}') \gexec
+        * example
+            * select 'drop database a_database' where exists (select from pg_database where datname = 'a_database') \gexec
+            * select 'create database a_database' where not exists (select from pg_database where datname = 'a_database') \gexec
 */
 
 drop database if exists a_database;

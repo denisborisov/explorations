@@ -19,10 +19,12 @@ show tables from a_database;
 /*
 PostgreSQL
 [Windows] Command prompt / PowerShell console
-    * template
-        * `\dt {{schema name}}.*`
-    * example
-        * `\dt schema_name.*`
+    1. connect to DBMS
+    2. execute command
+        * template
+            * `\dt {{schema name}}.*`
+        * example
+            * `\dt schema_name.*`
 */
 
 

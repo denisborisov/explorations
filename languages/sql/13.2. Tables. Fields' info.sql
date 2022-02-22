@@ -18,10 +18,12 @@ describe table mysql.user;
 
 /* PostgreSQL
 [Windows] Command prompt / PowerShell console
-    * template
-        * `\d {{table}}`
-    * example
-        * `\d pg_catalog.pg_user`
+    1. connect to DBMS
+    2. execute command
+        * template
+            * `\d {{table}}`
+        * example
+            * `\d pg_catalog.pg_user`
 */
 
 

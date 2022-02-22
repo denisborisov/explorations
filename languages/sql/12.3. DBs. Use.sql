@@ -13,10 +13,12 @@ DB2 for i
 /*
 MySQL
 [Windows] Command prompt / PowerShell console
-    * template
-        * `\u {{database}}`
-    * example
-        * `\u mysql`
+    1. connect to DBMS
+    2. execute command
+        * template
+            * `\u {{database}}`
+        * example
+            * `\u mysql`
 */
 
 use a_database;
@@ -25,10 +27,12 @@ use a_database;
 /*
 PostgreSQL
 [Windows] Command prompt / PowerShell console
-    * template
-        * `\c {{database}}`
-    * example
-        * `\c postgres`
+    1. connect to DBMS
+    2. execute command
+        * template
+            * `\c {{database}}`
+        * example
+            * `\c postgres`
 */
 
 set search_path to a_database,public;
