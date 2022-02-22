@@ -1,12 +1,14 @@
 /*
 DB2 for i
 [Windows] 5250 Emulator provided by IBM i Access Client Solutions
-    * template
-        1. dltlib lib({{library}})
-        2. crtlib lib({{library}})
-    * example
-        1. dltlib lib(DBLIB)
-        2. crtlib lib(DBLIB)
+    1. disconnect from DBMS
+    2. execute command
+        * template
+            1. dltlib lib({{library}})
+            2. crtlib lib({{library}})
+        * example
+            1. dltlib lib(DBLIB)
+            2. crtlib lib(DBLIB)
 */
 
 drop database if exists a_database;

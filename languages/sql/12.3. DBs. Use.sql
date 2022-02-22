@@ -1,7 +1,8 @@
 /*
 DB2 for i
 [Windows] 5250 Emulator provided by IBM i Access Client Solutions
-    * There is no way to do it from the SQL CLI, but you can run this command in the terminal:
+    1. disconnect from DBMS
+    2. execute command
         * template
             * `addlible lib({{library}}) position(*FIRST)`
         * example
