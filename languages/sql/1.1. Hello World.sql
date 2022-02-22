@@ -4,12 +4,6 @@ select 'Hello world' from sysibm.sysdummy1
 
 
 
-/* MSSQL */
-
-select 'Hello world!';
-
-
-
 /* MySQL */
 
 select 'Hello world!'; -- single quotes
@@ -19,5 +13,11 @@ select "Hello world!"; -- double quotes
 
 
 /* PostgreSQL */
+
+select 'Hello world!';
+
+
+
+/* SQL Server */
 
 select 'Hello world!';
