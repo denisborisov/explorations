@@ -1,3 +1,9 @@
+/* General approach */
+
+select * from information_schema.schemata
+
+
+
 /* DB2 for i */
 
 select * from syscatalogs
