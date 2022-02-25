@@ -26,7 +26,26 @@ create table if not exists users
 
 
 -- create a table with field named 'create'
-create table users
+drop table if exists users;
+create table if not exists users
 (
 	"create" integer -- must be in double quotes
+);
+
+
+
+-- datetime intervals
+select current_date - interval '1 day';
+select current_date + interval '1 week';
+select current_date - interval '1 year';
+select current_date + interval '1 year 1 month';
+
+
+
+-- enumerations
+create type tsize as enum ('small', 'medium', 'large');
+drop table if exists tshirts;
+create table if not exists tshirts
+(
+	size tsize
 );

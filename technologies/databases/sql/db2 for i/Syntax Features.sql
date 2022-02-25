@@ -23,3 +23,17 @@ create or replace table users
 (
     "create" integer -- use of double quotes
 )
+
+
+
+-- datetime intervals
+-- see p. 181 of the Database DB2 for i SQL Reference
+--     https://www.ibm.com/docs/en/SSAE4W_9.6.0/db2/rbafzpdf.pdf
+values current_date + 1 day
+values current_date + 1 year
+values current_date + 1 year + 1 month
+
+
+
+-- enumerations
+--   are unavailable
