@@ -29,9 +29,9 @@ create table if not exists users
 -- SQL Server
 drop table if exists users;
 if object_id('users', 'U') is null
-	begin
-		create table users
-		(
-			id int
-		)
-	end
+    begin
+        create table users
+        (
+            id int
+        )
+    end

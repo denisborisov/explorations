@@ -24,12 +24,12 @@ create table users
 -- PostgreSQL
 create table users
 (
-	"create" integer -- must be in double quotes
+    "create" integer -- must be in double quotes
 );
 --
 --
 -- SQL Server
 create table users
 (
-	"create" int -- must be in double quotes
+    "create" int -- must be in double quotes
 )
