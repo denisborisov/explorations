@@ -2,7 +2,8 @@
  * Drop & create table
  */
 
--- DB2 for idrop table if exists users
+-- DB2 for i
+drop table if exists users
 create or replace table users
 (
     id integer
