@@ -7,7 +7,6 @@
 --
 --
 -- MySQL
-drop table if exists seasons;
 create table if not exists seasons
 (
     season set('spring','summer','autumn','winter') 
