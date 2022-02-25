@@ -6,6 +6,7 @@
 -- see p. 181 of the Database DB2 for i SQL Reference
 --     https://www.ibm.com/docs/en/SSAE4W_9.6.0/db2/rbafzpdf.pdf
 values current_date + 1 day
+     -- no way to add a week
 values current_date + 1 year
 values current_date + 1 year + 1 month
 --
@@ -28,3 +29,4 @@ select current_date + interval '1 year 1 month';
 select current_timestamp - 1 day
 select current_timestamp + 1 week
 select current_timestamp - 1 year
+      -- no way to combine 1 year and 1 month
