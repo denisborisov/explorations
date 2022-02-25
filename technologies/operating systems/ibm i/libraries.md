@@ -3,9 +3,9 @@
 
 Create library
 * template
-    * crtlib lib({{library}})
+    * `crtlib lib({{library}})`
 * example
-    * crtlib lib(DBLIB)
+    * `crtlib lib(DBLIB)`
 <br />
 <br />
 
@@ -13,9 +13,9 @@ Create library
 
 Delete library
 * template
-    * dltlib lib({{library}})
+    * `dltlib lib({{library}})`
 * example
-    * dltlib lib(DBLIB)
+    * `dltlib lib(DBLIB)`
 <br />
 <br />
 
