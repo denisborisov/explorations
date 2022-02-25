@@ -45,3 +45,11 @@ if object_id('users', 'U') is null
 insert users (id) values (111);
 -- is equal to
 insert into users (id) values (111);
+
+
+
+-- create a table with field named 'create'
+create table users
+(
+	"create" int -- must be in double quotes
+);

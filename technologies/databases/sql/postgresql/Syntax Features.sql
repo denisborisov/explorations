@@ -23,3 +23,10 @@ create table if not exists users
 (
     id integer
 );
+
+
+-- create a table with field named 'create'
+create table users
+(
+	"create" integer -- must be in double quotes
+);

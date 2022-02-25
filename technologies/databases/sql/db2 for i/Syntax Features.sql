@@ -10,3 +10,16 @@ create or replace table users
 (
     id integer
 )
+
+
+
+-- create a table with field named 'create'
+create or replace table users
+(
+    create integer -- no problem
+)
+-- is equal to
+create or replace table users
+(
+    "create" integer -- use of double quotes
+)
