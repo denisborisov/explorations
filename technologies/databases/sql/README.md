@@ -1,4 +1,4 @@
-# DB2 for i, MySQL, PostgreSQL, SQL Server
+# SQL databases
 <br />
 
 ## Courses passed
